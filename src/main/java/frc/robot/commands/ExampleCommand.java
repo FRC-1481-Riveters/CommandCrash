@@ -7,12 +7,9 @@ package frc.robot.commands;
 import edu.wpi.first.wpilibj2.command.SequentialCommandGroup;
 import edu.wpi.first.wpilibj2.command.WaitCommand;
 
-/** An example command that uses an example subsystem. */
 public class ExampleCommand extends SequentialCommandGroup {
   public ExampleCommand() {
-    addCommands( 
-      new WaitCommand( 0 ),
-      new WaitCommand( 0 ),
+    addCommands(
       new WaitCommand( 1.0 )
     );
   }
